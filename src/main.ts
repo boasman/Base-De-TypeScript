@@ -5,7 +5,8 @@ import './style.css'
 // import './topic/05-basic-desctructuring'
 // import './topic/07-import-export'
 // import './topic/08-classes'
-import './topic/09-generic'
+// import './topic/09-generic'
+import './topic/10-decorator'
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 
