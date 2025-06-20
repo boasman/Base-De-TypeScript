@@ -1,15 +1,14 @@
 /*
     ===== Código de TypeScript =====
 */
-
-interface SuperHero{
+interface SuperHero {
     name: string;
     age: number;
     address: Address;
     showAddress: () => string;
 }
 
-interface Address{
+interface Address {
     street: string;
     country: string;
     city: string;
@@ -32,3 +31,8 @@ const superHeroe: SuperHero = {
 
 const address = superHeroe.showAddress();
 console.log( address );
+
+
+
+
+export {};
